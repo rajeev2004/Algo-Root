@@ -48,7 +48,6 @@ function SignUp(){
                         <button type="submit">Register</button>
                     </div>
                 </div>
-                {error && <p className="error">{error}</p>}
             </form>
             {error && <p className="message">{error}</p>}
         </div>
